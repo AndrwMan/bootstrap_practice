@@ -1,0 +1,180 @@
+
+/*General text*/
+#title {
+	background-color: #FF6969;
+}
+
+h1 {
+	font-family: 'Inter', sans-serif;
+	font-weight: bold;
+	font-size: 3rem;
+	line-height: 1.5;
+}
+
+h2 {
+	font-family: 'Inter', sans-serif;
+	font-weight: bold;
+	/*unitless*/
+	font-size: 1.5;
+}
+
+h3 {
+	font-family: 'Inter';
+	font-weight: bold;
+}
+
+p {
+	color: FFF5E0;
+}
+
+.container-fluid {
+	padding: 3% 15%;
+}
+
+/*Navigation Bar*/
+
+/* aligned navbar with title text */
+.navbar {
+	padding: 0 0 4.5rem;	
+}
+	
+.navbar-brand {
+	font-family: 'Rubik';
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+
+.navbar-item {
+	padding: 0 18px;
+}
+
+.nav-link {
+	font-family: 'Inter', sans-serif;
+	font-size: 1.2rem;
+}
+
+.download-button {
+	margin: 5% 3% 5% 0;
+}
+
+.title-image{
+	width: 60%;
+	transform: rotate(20deg);
+	/* these 2 properties here make img disappear */
+	/*z-index: -1;
+	position: absolute;*/
+}
+
+/*Features styling*/
+
+#features {
+	padding: 7% 15%;
+	/*color Not white despite video using #fff = white*/
+	background-color: #FFF5E0;
+	/* these 2 properties here have correct functionality*/
+	z-index: -1;
+	position: relative;
+}
+
+.feature-box {
+	text-align: center;
+	padding: 5%;
+}
+
+.icon {
+	color: #FF6969;
+	margin-bottom: 1rem;
+}
+
+.icon:hover {
+	color: #FF6969;
+}
+
+/*Testimonial*/
+
+#testimonials {
+	text-align: center;
+	background-color: #FF6969;
+
+
+}
+
+.carousel-item {
+	padding: 7% 15%;
+}
+
+/*Testimonial Image*/
+
+.testimonial-image {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	object-fit: cover;
+	margin: 10px;
+}
+
+/*Press*/
+
+#press {
+	background-color:#FF6969;
+	text-align: center;
+}
+
+.press-logo {
+	width: 10%;
+	margin: 20px 20px 50px;
+}
+
+/*Pricing*/
+
+#pricing {
+	padding: 100px;
+	text-align: center;
+}
+
+.pricing-header {
+	color: #000;
+}
+
+.pricing-column {
+	padding: 3% 2%;
+}
+
+/* Call to Action */
+#cta {
+	background-color: #FF6969;
+	color:#FFF5E0;
+	padding: 7% 15%;
+	text-align: center;
+}
+
+.cta-heading {
+	font-family: 'Inter';
+	font-weight: bold;
+	font-size: 3.5rem;
+	line-height: 1.5;
+}
+
+/*Footer*/
+#footer {
+	padding: 7% 15%;
+	text-align: center;
+}
+
+/*Media Queries*/
+@media (max-width: 1028px) {
+
+	#title {
+		text-align: center;
+	}
+
+	.title-image {
+		position: static;
+		transform: rotate(0);
+	}
+}
+
+
+
+
+	
